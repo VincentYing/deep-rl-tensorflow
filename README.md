@@ -1,19 +1,8 @@
 # Deep Reinforcement Learning in TensorFlow
 
 ## Paper
-![Paper](https://github.com/VincentYing/deep-rl-tensorflow/blob/master/paper/DRQN.pdf)
 
-TensorFlow implementation of Deep Reinforcement Learning papers. This implementation contains:
-
-[1] [Playing Atari with Deep Reinforcement Learning](http://arxiv.org/abs/1312.5602)  
-[2] [Human-Level Control through Deep Reinforcement Learning](http://home.uchicago.edu/~arij/journalclub/papers/2015_Mnih_et_al.pdf)  
-[3] [Deep Reinforcement Learning with Double Q-learning](http://arxiv.org/abs/1509.06461)  
-[4] [Dueling Network Architectures for Deep Reinforcement Learning](http://arxiv.org/abs/1511.06581)  
-[5] [Prioritized Experience Replay](http://arxiv.org/pdf/1511.05952v3.pdf) (in progress)  
-[6] [Deep Exploration via Bootstrapped DQN](http://arxiv.org/abs/1602.04621) (in progress)  
-[7] [Asynchronous Methods for Deep Reinforcement Learning](http://arxiv.org/abs/1602.01783) (in progress)  
-[8] [Continuous Deep q-Learning with Model-based Acceleration](http://arxiv.org/abs/1603.00748) (in progress)  
-
+![Final Paper](https://github.com/VincentYing/deep-rl-tensorflow/blob/master/paper/DRQN.pdf)
 
 ## Requirements
 
@@ -22,7 +11,6 @@ TensorFlow implementation of Deep Reinforcement Learning papers. This implementa
 - [tqdm](https://github.com/tqdm/tqdm)
 - [OpenCV2](http://opencv.org/) or [Scipy](https://www.scipy.org/)
 - [TensorFlow](https://www.tensorflow.org/)
-
 
 ## Usage
 
@@ -59,6 +47,17 @@ Train with MLP model described in [[4]](#deep-reinforcement-learning-in-tensorfl
     $ python main.py --network_header_type=mlp --network_output_type=dueling --double_q=True --observation_dims='[16]' --env_name=CorridorSmall-v5 --t_learn_start=0.1 --learning_rate_decay_step=0.1 --history_length=1 --n_action_repeat=1 --t_ep_end=10 --display=True --learning_rate=0.025 --learning_rate_minimum=0.0025
 
 ## References
+
+TensorFlow implementation of Deep Reinforcement Learning papers. This implementation contains:
+
+[1] [Playing Atari with Deep Reinforcement Learning](http://arxiv.org/abs/1312.5602)  
+[2] [Human-Level Control through Deep Reinforcement Learning](http://home.uchicago.edu/~arij/journalclub/papers/2015_Mnih_et_al.pdf)  
+[3] [Deep Reinforcement Learning with Double Q-learning](http://arxiv.org/abs/1509.06461)  
+[4] [Dueling Network Architectures for Deep Reinforcement Learning](http://arxiv.org/abs/1511.06581)  
+[5] [Prioritized Experience Replay](http://arxiv.org/pdf/1511.05952v3.pdf)
+[6] [Deep Exploration via Bootstrapped DQN](http://arxiv.org/abs/1602.04621) 
+[7] [Asynchronous Methods for Deep Reinforcement Learning](http://arxiv.org/abs/1602.01783)
+[8] [Continuous Deep q-Learning with Model-based Acceleration](http://arxiv.org/abs/1603.00748) 
 
 - [DQN-tensorflow](https://github.com/devsisters/DQN-tensorflow)
 - [DeepMind's code](https://sites.google.com/a/deepmind.com/dqn/)
