@@ -48,16 +48,16 @@ Train with MLP model described in [[4]](#deep-reinforcement-learning-in-tensorfl
 
 ## References
 
+- [DQN-tensorflow](https://github.com/devsisters/DQN-tensorflow)
+- [DeepMind's code](https://sites.google.com/a/deepmind.com/dqn/)
+
 TensorFlow implementation of Deep Reinforcement Learning papers. This implementation contains:
 
 [1] [Playing Atari with Deep Reinforcement Learning](http://arxiv.org/abs/1312.5602)  
 [2] [Human-Level Control through Deep Reinforcement Learning](http://home.uchicago.edu/~arij/journalclub/papers/2015_Mnih_et_al.pdf)  
 [3] [Deep Reinforcement Learning with Double Q-learning](http://arxiv.org/abs/1509.06461)  
 [4] [Dueling Network Architectures for Deep Reinforcement Learning](http://arxiv.org/abs/1511.06581)  
-[5] [Prioritized Experience Replay](http://arxiv.org/pdf/1511.05952v3.pdf)
-[6] [Deep Exploration via Bootstrapped DQN](http://arxiv.org/abs/1602.04621) 
-[7] [Asynchronous Methods for Deep Reinforcement Learning](http://arxiv.org/abs/1602.01783)
-[8] [Continuous Deep q-Learning with Model-based Acceleration](http://arxiv.org/abs/1603.00748) 
-
-- [DQN-tensorflow](https://github.com/devsisters/DQN-tensorflow)
-- [DeepMind's code](https://sites.google.com/a/deepmind.com/dqn/)
+[5] [Prioritized Experience Replay](http://arxiv.org/pdf/1511.05952v3.pdf)  
+[6] [Deep Exploration via Bootstrapped DQN](http://arxiv.org/abs/1602.04621)  
+[7] [Asynchronous Methods for Deep Reinforcement Learning](http://arxiv.org/abs/1602.01783)  
+[8] [Continuous Deep q-Learning with Model-based Acceleration](http://arxiv.org/abs/1603.00748)  
