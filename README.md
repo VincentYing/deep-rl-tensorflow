@@ -1,5 +1,8 @@
 # Deep Reinforcement Learning in TensorFlow
 
+## Paper
+![Paper](https://github.com/VincentYing/deep-rl-tensorflow/blob/master/paper/DRQN.pdf)
+
 TensorFlow implementation of Deep Reinforcement Learning papers. This implementation contains:
 
 [1] [Playing Atari with Deep Reinforcement Learning](http://arxiv.org/abs/1312.5602)  
@@ -55,26 +58,7 @@ Train with MLP model described in [[4]](#deep-reinforcement-learning-in-tensorfl
     $ python main.py --network_header_type=mlp --network_output_type=dueling --observation_dims='[16]' --env_name=CorridorSmall-v5 --t_learn_start=0.1 --learning_rate_decay_step=0.1 --history_length=1 --n_action_repeat=1 --t_ep_end=10 --display=True --learning_rate=0.025 --learning_rate_minimum=0.0025
     $ python main.py --network_header_type=mlp --network_output_type=dueling --double_q=True --observation_dims='[16]' --env_name=CorridorSmall-v5 --t_learn_start=0.1 --learning_rate_decay_step=0.1 --history_length=1 --n_action_repeat=1 --t_ep_end=10 --display=True --learning_rate=0.025 --learning_rate_minimum=0.0025
 
-
-## Results
-
-Result of `Corridor-v5` in [[4]](#deep-reinforcement-learning-in-tensorflow) for DQN (purple), DDQN (red), Dueling DQN (green), Dueling DDQN (blue).
-
-![model](assets/corridor_result.png)
-
-Result of `Breakout-v0' for DQN without frame-skip (white-blue), DQN with frame-skip (light purple), Dueling DDQN (dark blue).
-
-![model](assets/A1_A4_double_dueling.png)
-
-The hyperparameters and gradient clipping are not implemented as it is as [[4]](#deep-reinforcement-learning-in-tensorflow).
-
-
 ## References
 
 - [DQN-tensorflow](https://github.com/devsisters/DQN-tensorflow)
 - [DeepMind's code](https://sites.google.com/a/deepmind.com/dqn/)
-
-
-## Author
-
-Taehoon Kim / [@carpedm20](http://carpedm20.github.io/)
